@@ -8,16 +8,17 @@ function App() {
     { option_id: 2, option_label: 'Orange', option_value: 'orange' },
     { option_id: 3, option_label: 'Yellow', option_value: 'yellow' }
   ];
-  const searchOptionsList = searchOptions.map(option => {
+  const searchOptionsList = searchOptions.map(option =>
     <li key={option.option_id}>
       {option.option_label}
     </li>
-  });
+  );
 
   return (
     <div className="App">
       <header className="App-header">
         <input className="App-header-search-field" />
+        <ul>{searchOptionsList}</ul>
       </header>
     </div>
   );
