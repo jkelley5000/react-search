@@ -12,6 +12,22 @@
   color: white;
 }
 
+.App-header__blue {
+  background-color: #282c34;
+}
+
+.App-header__red {
+  background-color: #7c393d;
+}
+
+.App-header__orange {
+  background-color: #d29139;
+}
+
+.App-header__yellow {
+  background-color: #b9c336;
+}
+
 .App-header-search-field {
   margin-top: 150px;
   padding: 10px;
@@ -22,5 +38,21 @@
   font-size: 19px;
   border-radius: 2px;
   box-shadow: 0 0 4px #fff;
+}
+
+ul {
+    padding: 10px;
+    width: 300px;
+    background: white;
+    text-align: left;
+    list-style: none;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #fff;
+}
+
+.App-header-search-option {
+  cursor: pointer;
+  color: black;
+  border-bottom: solid 1px #888;
 }
 
